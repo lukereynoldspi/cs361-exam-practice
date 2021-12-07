@@ -1,6 +1,6 @@
 # CS 361 Exam Practice
 
-class Thang
+class Prism
 
   def initialize(x, y, b)
     @width = x
@@ -15,7 +15,7 @@ end
 end
 
 
-cube = Thang.new(10, 20, 30)
+cube = Prism.new(10, 20, 30)
 puts cube.volume
 
 

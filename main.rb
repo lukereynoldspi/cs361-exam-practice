@@ -2,13 +2,13 @@
 
 class Prism
 
-  def initialize(x, y, b)
-    @width = x
-    @height = y
-    @depth = b
+  def initialize(w, h, l)
+    @width = w
+    @height = h
+    @length = l
   end
 
-  # Calculate the volume (w x h x d)
+  # Calculate the volume (w x h x l)
   def volume
     @width * (@height / @depth)
   end

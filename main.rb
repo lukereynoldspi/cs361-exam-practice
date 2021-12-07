@@ -16,8 +16,8 @@ class Prism
 end
 
 
-cube = Prism.new(10, 20, 30)
-puts cube.volume
+prism = Prism.new(10, 20, 30)
+puts prism.volume
 
 
 

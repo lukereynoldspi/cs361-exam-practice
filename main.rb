@@ -10,8 +10,9 @@ class Prism
 
   # Calculate the volume (w x h x d)
   def volume
-        return @width * @height / @depth
-end
+    return @width * @height / @depth
+  end
+  
 end
 
 
